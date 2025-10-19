@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>МСП (Мирчанська сільська партія)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>МСП (Мирчанська сільська партія)</h1>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="about.html">Про нас</a>
+    <a href="program.html">Програма</a>
+    <a href="contacts.html">Контакти</a>
+  </nav>
+</header>
+
+<main>
+  <div class="card">
+    <h2>Наші контакти</h2>
+    <ul>
+      <li>📞 Телефон: +380 66 4197 293 <br> 
+          Дзвоніть з 6 ранку до 22:00, крім часу доїння корів та гри в доміно.</li>
+      <li>📧 Email: luba6786@gmail.com <br>
+          Відповідає особисто Баба Люба, але іноді може переплутати клавіші й написати капслоком.</li>
+      <li>📍 Адреса: с. Мирча, вул. Шевченка, 67 <br>
+          Якщо не знайдете хату — питайте в магазині «Продукти», там усі знають дорогу.</li>
+      <li>📮 Пошта: <br>
+          Одарка доставляє листи раз на тиждень, але може доставити не туди.</li>
+      <li>📻 Радіо: <br>
+          Налаштовуйте приймач на хвилю 101.5 FM — щодня о 7 ранку слухайте звернення Баби Люби.</li>
+    </ul>
+
+    <h2>Вступити до партії</h2>
+
+    <form class="join-form">
+      <div class="form-group">
+        <label for="name">Ваше ім’я:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть ім’я" required>
+      </div>
+
+      <div class="form-group">
+        <label for="gorilka">Скільки горілки п’єте на день:</label>
+        <input type="number" id="gorilka" name="gorilka" min="0" max="10">
+      </div>
+
+      <div class="form-group">
+        <label>Ваш улюблений сорт картоплі:</label>
+        <input type="text" name="kartoplya" placeholder="Наприклад: Славянка">
+      </div>
+
+      <div class="form-group">
+        <label>Чи готові ви працювати на бабу Любу?</label>
+        <select name="work">
+          <option value="">Оберіть відповідь</option>
+          <option value="так">Так</option>
+          <option value="звісно">Звісно!</option>
+          <option value="а_куди_дінешся">А куди дінешся…</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Яку посаду хочете обіймати:</label><br>
+        <input type="radio" name="posada" value="голова"> Голова партії<br>
+        <input type="radio" name="posada" value="секретар"> Секретар<br>
+        <input type="radio" name="posada" value="агітатор"> Агітатор
+      </div>
+
+      <div class="form-group">
+        <label>
+          <input type="checkbox" name="agree" required>
+          Підтверджую, що не є членом іншої партії.
+        </label>
+      </div>
+
+      <button type="submit">Вступити</button>
+    </form>
+  </div>
+</main>
+
+<footer>
+  © 2025 МСП (Мирчанська сільська партія) — «Село понад усе!»<br>
+  Автор цього сайта не хоче нікого образити, це все лише гумор і сатира.<br>
+  Всі люди вигадані, а співпадіння випадкові.
+</footer>
+</body>
+</html>
